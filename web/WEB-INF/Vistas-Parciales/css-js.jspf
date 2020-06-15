@@ -1,0 +1,19 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<link href="bootstrap337/css/estilo-base.css" type="text/css" rel="stylesheet">
+
+
+<link href="bootstrap337/css/estilo-theme.css" type="text/css" rel="stylesheet">
+<link href="bootstrap337/css/estilo-theme.min.css" type="text/css" rel="stylesheet">
+
+
+<link href="bootstrap337/css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="bootstrap337/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+
+<link href="bootstrap337/js/bootstrap.js" type="text/javascript" rel="stylesheet">
+<link href="bootstrap337/js/bootstrap.min.js" type="text/javascript" rel="stylesheet">
+
+
+<link href="bootstrap337/js/jquery-3.2.1.js" type="text/javascript" rel="stylesheet">
+<link href="bootstrap337/js/jquery-3.2.1.min.js" type="text/javascript" rel="stylesheet">
