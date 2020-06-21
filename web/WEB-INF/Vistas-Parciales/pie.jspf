@@ -2,8 +2,9 @@
 <%@ page pageEncoding="UTF-8" %>
 
 
-</div>
-<div class="pie">
-    &COPY Christian Josue Morales
-</div>
+
+    </div>
+    <div class="pie">
+        @ Christian Josue
+    </div>
 </div>

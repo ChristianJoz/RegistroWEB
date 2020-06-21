@@ -9,11 +9,11 @@ public class Producto {
     private float precio;
     private String unidadMedida;
     private int estado;
-    private Categoria categoria;
+    private Categoria categoria;   
 
     public Producto() {
         this.id_producto = 0;
-        this.categoria = new Categoria();
+        this.categoria = new Categoria();  
     }
 
     public Producto(int id_producto, String nom_producto, int categoria_id, float stock, float precio, String unidadMedida, int estado, Categoria categoria) {
@@ -91,6 +91,5 @@ public class Producto {
         this.categoria = categoria;
     }
     
-   
-    
+     
 }

@@ -9,7 +9,7 @@ public class Categoria {
     public Categoria() {
         this.id_categoria = 0;
         this.nom_categoria = "";
-        this.estado_categoria = 1;
+        this.estado_categoria = 1; 
     }
 
     public Categoria(int id_categoria, String nom_categoria, int estado_categoria) {
@@ -41,21 +41,4 @@ public class Categoria {
     public void setEstado_categoria(int estado_categoria) {
         this.estado_categoria = estado_categoria;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-

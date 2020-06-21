@@ -1,11 +1,17 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
-<div> 
-   <div class ="encabezado">
-       Sistema de Control de Inventario
-       <a href="index.jsp" class="btn btn-primary btn-sm" role="button">Inicio</a>
-       <a href="Categorias.do?opcion=listar" class="btn btn-primary btn-sm" role="button">Categorias</a>
+<div>
+    <div class="encabezado">
+        SISTEMA DE CONTROL DE INVENTARIO
+       
+        <a href="index" class="btn btn-primary btn-sm" role="button">Inicio</a>
+       
+        <a href="categorias?opcion=listar" class="btn btn-primary btn-sm" role="button">Categorias</a>
+        
+        <a href="pdf.jsp" class="btn btn-primary btn-sm" role="button">PDF</a>
+        
     </div>
+    
+    
     <div class="contenido">
-
-</div>
+   

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d6a55a93-dd91-47b7-9fda-7363c5e9212d">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     tb_categoria.`id_categoria` AS tb_categoria_id_categoria,
+     tb_categoria.`nom_categoria` AS tb_categoria_nom_categoria,
+     tb_categoria.`estado_categoria` AS tb_categoria_estado_categoria
+FROM
+     `tb_categoria` tb_categoria]]>
+	</queryString>
+	<field name="tb_categoria_id_categoria" class="java.lang.Integer"/>
+	<field name="tb_categoria_nom_categoria" class="java.lang.String"/>
+	<field name="tb_categoria_estado_categoria" class="java.lang.Boolean"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="176" y="27" width="199" height="33" uuid="cf403159-881c-415b-b0df-c9613d3f44c4"/>
+				<textElement>
+					<font size="18" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[TABLA CATEGORIA]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="42" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="33" uuid="ffb21005-a0f7-4af0-908b-cc1fa82554b3"/>
+				<textElement>
+					<font size="12" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Reporte PDF de las categorias registradas en la tabla categoria, reporte creado con jasper y iReport]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="19" y="22" width="100" height="20" uuid="4189bb07-4ed1-4ce9-abc0-a670f074a0d3"/>
+				<text><![CDATA[ID Categoria]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="218" y="22" width="100" height="20" uuid="4e2ad833-1503-451d-b791-a5b466947465"/>
+				<text><![CDATA[Nombre Categoria]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="22" width="100" height="20" uuid="25d2c63f-a82f-4452-abb9-c1bb063e4941"/>
+				<text><![CDATA[Estado Categoria]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="19" y="0" width="100" height="20" uuid="ac490c8f-f449-4ec1-aec0-7f17fe0e8e04"/>
+				<textFieldExpression><![CDATA[$F{tb_categoria_id_categoria}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="0" width="100" height="20" uuid="957e6996-26b1-4c3b-b810-585da6c4cfd7"/>
+				<textFieldExpression><![CDATA[$F{tb_categoria_nom_categoria}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="0" width="100" height="20" uuid="d493cf19-1ca2-4791-8dc1-a8fd50770446"/>
+				<textFieldExpression><![CDATA[$F{tb_categoria_estado_categoria}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
